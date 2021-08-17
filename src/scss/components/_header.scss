@@ -1,0 +1,40 @@
+@import '../variables';
+
+.header {
+  background-color: rgb(255, 255, 255);
+  padding: 40px 0px;
+
+  .containerr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // box-shadow: 1px 1px 10px #e2e2e2;
+  }
+
+  &__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      margin-right: 15px;
+      width: 40px;
+    }
+
+    h1 {
+      display: flex;
+      justify-content: flex-start;
+      margin: 0;
+      color: #181818;
+      font-size: 28px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+
+    p {
+      color: #7b7b7b;
+      margin: 0;
+    }
+  }
+}

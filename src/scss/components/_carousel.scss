@@ -1,0 +1,61 @@
+
+.carousel .slide .legend {
+  display: none;
+}
+
+
+
+.carousel .control-dots .dot {
+  transition: opacity .25s ease-in;
+  opacity: .3;
+  filter: alpha(opacity=30);
+  background: rgb(255, 94, 0);
+  border-radius: 50%;
+  width: 13px;
+  height: 13px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 2px 8px;
+}
+
+.carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover { 
+  border: 2px solid rgb(255, 255, 255);
+}
+
+
+
+// .carousel .control-dots .dot:hover {
+//   display: flex;
+//   transition: opacity .25s ease-in;
+//   opacity: .3;
+//   filter: alpha(opacity=30);
+//   background: rgb(255, 0, 0);
+//   border-radius: 50%;
+//   width: 8px;
+//   height: 8px;
+//   cursor: pointer;
+//   display: inline-block;
+//   margin: 2px 8px;
+// }
+
+.carousel .slide img {
+  padding: 0 8px;
+  border-radius: 30px;
+}
+
+.carousel.carousel-slider .control-arrow {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 48%;
+  background: $orange;
+  margin: 0 15px;
+
+
+  &:hover {
+    background: $orange;
+  }
+}

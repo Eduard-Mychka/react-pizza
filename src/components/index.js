@@ -1,0 +1,7 @@
+export { default as Header} from './Header'
+export { default as Carousels} from './Carousels'
+export { default as Categories} from './Categories'
+export { default as PizzaBlock} from './PizzaBlock'
+export { default as SortPopup} from './SortPopup'
+export { default as Footer} from './Footer'
+export { default as CartButton} from './CartButton'
