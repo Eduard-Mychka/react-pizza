@@ -10,7 +10,6 @@
     
   &:hover {
     box-shadow: 1px 1px 15px rgba(0,0,0,0.1);
-
   }
 
   // &:not(:nth-of-type(4n)) {
@@ -31,15 +30,14 @@
   }
 
   &__selector {
-    display: flex;
     background-color: #f3f3f3;
     border-radius: 10px;
-    flex-direction: column;
     padding: 6px;
 
     ul {
       display: flex;
       flex: 1;
+      padding: 0;
 
       &:first-of-type {
         margin-bottom: 6px;

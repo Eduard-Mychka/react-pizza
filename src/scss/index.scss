@@ -5,9 +5,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
 
 body {
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+}
+
+.wrapper {
   width: calc(100vw - 100px);
   height: 100%;
-  background-color: rgb(255, 255, 255);
   margin: 0 auto;
   max-width: 1400px;
 }
@@ -15,7 +19,7 @@ body {
 .content {
 
   &__title {
-    margin: 35px 0;
+    margin: 40px 0;
     font-weight: 800;
   }
 
@@ -30,11 +34,11 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    margin-top: 20px;
+    margin: 40px 0 0;
   }
 }
 
-.containerr {
+.custom-container {
   width: 100%;
   margin: 0 auto;
 

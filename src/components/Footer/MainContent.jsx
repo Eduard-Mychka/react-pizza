@@ -1,54 +1,51 @@
 import Header from '../Header'
+import ContsctUs from './ContsctUs'
+import { visa, mastercard, appStore, playGogle } from '../../assets/images/icons-footer'
 
 export default function MainContent() {
   return (
-    <div className="footer-content pt-4 pb-4">
+    <div className="main-content pt-3 pb-2">
       <div className="row">
-        <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
-          <div className="footer-widget">
-            <div className="footer-widget-heading">
-              <h3>Subscribe</h3>
+        <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+          <ContsctUs />
+        </div>
+        <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+          <div className="footer-store">
+            <span>Поддерживаемые платежи</span>
+            <div className="pay">
+              <img className="pay__visa" src={visa} alt="icon-visa" />
+              <img className="pay__mastercard" src={mastercard} alt="icon-mastercard" />
             </div>
-            <div className="footer-text mb-25">
-              <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
-            </div>
-            <div className="subscribe-form">
-              <form>
-                <input type="text" placeholder="Email Address" />
-                <button><i className="fab fa-telegram-plane" /></button>
-              </form>
+            <span>Скачать приложение</span>
+            <div className="download">
+              <img className="download__with-app-store" src={appStore} alt="app-store" />
+              <img className="download__with-play-gogle" src={playGogle} alt="play-gogle" />
             </div>
           </div>
         </div>
-        <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
-          <div className="footer-widget">
-            <div className="footer-widget-heading">
-              <h3>Useful Links</h3>
+        <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+          <div className="footer-social-icon">
+            <span>Подписывайтесь на наши соцсети</span>
+            <div className="social-icon">
+              <i className="fab fa-facebook-f facebook-bg" title="Facebook" />
+              <i className="fab fa-twitter twitter-bg" title="Twitter" />
+              <i className="fab fa-google-plus-g google-bg" title="Gogle+" />
+              <i className="fab fa-youtube google-bg" title="YouTube" />
+              <i className="fab fa-instagram insta-bg" title="Instagram" />
             </div>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">about</a></li>
-              <li><a href="#">services</a></li>
-              <li><a href="#">portfolio</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Our Services</a></li>
-              <li><a href="#">Expert Team</a></li>
-              <li><a href="#">Contact us</a></li>
-              <li><a href="#">Latest News</a></li>
-            </ul>
+            <h3>1 500 740 900 uah</h3>
+            <p>Выручка украинской сети в этом месяце.</p>
+            <p>В прошлом — 2 801 746 884 uah</p>
           </div>
         </div>
-
-        <div className="col-xl-4 col-lg-4 mb-50">
-          <div className="footer-widget">
-            <Header />
-            <div className="footer-social-icon">
-              <span>Подписывайтесь на наши соцсети</span>
-              <a href="#"><i className="fab fa-facebook-f facebook-bg"></i></a>
-              <a href="#"><i className="fab fa-twitter twitter-bg"></i></a>
-              <a href="#"><i className="fab fa-google-plus-g google-bg"></i></a>
+        <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+          <div className="footer-logo">
+            <div className="logo">
+              <Header />
             </div>
+            <h3>750 пиццерий</h3>
+            <p>В 10 странах, от Великобритании до Канады.</p>
+            <p>Наша цель 20 стран и 2000 пиццерий.</p>
           </div>
         </div>
       </div>
