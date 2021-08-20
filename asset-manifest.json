@@ -1,30 +1,34 @@
 {
   "files": {
-    "main.css": "/react-pizza/static/css/main.e370a292.chunk.css",
-    "main.js": "/react-pizza/static/js/main.a433d074.chunk.js",
-    "main.js.map": "/react-pizza/static/js/main.a433d074.chunk.js.map",
+    "main.css": "/react-pizza/static/css/main.822fcb0a.chunk.css",
+    "main.js": "/react-pizza/static/js/main.0e40057b.chunk.js",
+    "main.js.map": "/react-pizza/static/js/main.0e40057b.chunk.js.map",
     "runtime-main.js": "/react-pizza/static/js/runtime-main.a2245227.js",
     "runtime-main.js.map": "/react-pizza/static/js/runtime-main.a2245227.js.map",
     "static/css/2.ed1298f3.chunk.css": "/react-pizza/static/css/2.ed1298f3.chunk.css",
-    "static/js/2.b6f7c1f1.chunk.js": "/react-pizza/static/js/2.b6f7c1f1.chunk.js",
-    "static/js/2.b6f7c1f1.chunk.js.map": "/react-pizza/static/js/2.b6f7c1f1.chunk.js.map",
+    "static/js/2.49604efb.chunk.js": "/react-pizza/static/js/2.49604efb.chunk.js",
+    "static/js/2.49604efb.chunk.js.map": "/react-pizza/static/js/2.49604efb.chunk.js.map",
     "index.html": "/react-pizza/index.html",
     "static/css/2.ed1298f3.chunk.css.map": "/react-pizza/static/css/2.ed1298f3.chunk.css.map",
-    "static/css/main.e370a292.chunk.css.map": "/react-pizza/static/css/main.e370a292.chunk.css.map",
-    "static/js/2.b6f7c1f1.chunk.js.LICENSE.txt": "/react-pizza/static/js/2.b6f7c1f1.chunk.js.LICENSE.txt",
+    "static/css/main.822fcb0a.chunk.css.map": "/react-pizza/static/css/main.822fcb0a.chunk.css.map",
+    "static/js/2.49604efb.chunk.js.LICENSE.txt": "/react-pizza/static/js/2.49604efb.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/react-pizza/static/media/ProximaNova-Regular.d97f8f32.eot",
+    "static/media/app-store.ec6b1120.svg": "/react-pizza/static/media/app-store.ec6b1120.svg",
+    "static/media/mastercard.5873e7b7.svg": "/react-pizza/static/media/mastercard.5873e7b7.svg",
     "static/media/pizza-logo.56ac8703.svg": "/react-pizza/static/media/pizza-logo.56ac8703.svg",
+    "static/media/play-gogle.b52e61a1.svg": "/react-pizza/static/media/play-gogle.b52e61a1.svg",
     "static/media/slider1.6c4e9a1f.jpeg": "/react-pizza/static/media/slider1.6c4e9a1f.jpeg",
     "static/media/slider2.1f360c45.jpeg": "/react-pizza/static/media/slider2.1f360c45.jpeg",
     "static/media/slider3.c72070a6.jpeg": "/react-pizza/static/media/slider3.c72070a6.jpeg",
     "static/media/slider4.5d27823e.jpeg": "/react-pizza/static/media/slider4.5d27823e.jpeg",
-    "static/media/slider5.e2a59594.jpeg": "/react-pizza/static/media/slider5.e2a59594.jpeg"
+    "static/media/slider5.e2a59594.jpeg": "/react-pizza/static/media/slider5.e2a59594.jpeg",
+    "static/media/visa.fcedc223.png": "/react-pizza/static/media/visa.fcedc223.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a2245227.js",
     "static/css/2.ed1298f3.chunk.css",
-    "static/js/2.b6f7c1f1.chunk.js",
-    "static/css/main.e370a292.chunk.css",
-    "static/js/main.a433d074.chunk.js"
+    "static/js/2.49604efb.chunk.js",
+    "static/css/main.822fcb0a.chunk.css",
+    "static/js/main.0e40057b.chunk.js"
   ]
 }
