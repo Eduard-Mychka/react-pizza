@@ -1,5 +1,5 @@
-{
-  "pizzas": [
+
+export const pizzasData = [
     {
       "id": 0,
       "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/bc585c01ce0f4472a95b23112d81bc2e_584x584.jpeg",
@@ -161,5 +161,4 @@
       "rating": 8
     }
   ]
-}
 

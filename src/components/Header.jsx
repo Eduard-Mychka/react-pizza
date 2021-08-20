@@ -3,7 +3,7 @@ import logoSvg from '../assets/images/others/pizza-logo.svg';
 
 const Header = () => {
   return (
-    <Link to="/react-pizza" title="Home">
+    <Link to="/" title="Home">
       <div className="header__logo">
         <img src={logoSvg} alt="Pizza logo" />
         <div>

@@ -1,15 +1,23 @@
 import { useState, useEffect } from 'react'
-import { Route, Link, Switch } from 'react-router-dom'
+import { Route, Link, Switch, Redirect } from 'react-router-dom'
 import { Header, Footer, CartButton } from './components'
 import { Home, Cart } from './pages'
+import { pizzasData } from './db'
 
 const App = () => {
   const [pizzas, setPizzas] = useState([]);
+  const [loader, setLoader] = useState(false)
 
   useEffect(() => {
-    fetch('http://localhost:3000/react-pizza/db.json')
-      .then((resp) => resp.json())
-      .then((json) => setPizzas(json.pizzas))
+    new Promise(resolve => {
+      setLoader(true)
+      setTimeout(() => {
+        resolve(pizzasData)
+        setLoader(false)
+      }, 1000);
+    })
+      .then((pizzas) => setPizzas(pizzas))
+      .catch((error) => console.log(error))
   }, []);
 
   return (
@@ -27,7 +35,8 @@ const App = () => {
       <div className="content">
         <Switch>
           <Route path="/cart" component={Cart} exact />
-          <Route exact path="/react-pizza" render={() => <Home pizzas={pizzas} />} />
+          <Route exact path="/" render={() => <Home pizzas={pizzas} loader={loader} />} />
+          <Redirect to="/" />
         </Switch>
       </div>
       <Footer />
