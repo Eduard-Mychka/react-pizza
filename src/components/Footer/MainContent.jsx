@@ -11,12 +11,12 @@ export default function MainContent() {
         </div>
         <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
           <div className="footer-store">
-            <span>Поддерживаемые платежи</span>
+            <h3>Поддерживаемые платежи</h3>
             <div className="pay">
               <img className="pay__visa" src={visa} alt="icon-visa" />
               <img className="pay__mastercard" src={mastercard} alt="icon-mastercard" />
             </div>
-            <span>Скачать приложение</span>
+            <h3>Скачать приложение</h3>
             <div className="download">
               <img className="download__with-app-store" src={appStore} alt="app-store" />
               <img className="download__with-play-gogle" src={playGogle} alt="play-gogle" />
@@ -25,7 +25,7 @@ export default function MainContent() {
         </div>
         <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
           <div className="footer-social-icon">
-            <span>Подписывайтесь на наши соцсети</span>
+            <h3>Подписывайтесь на наши соцсети</h3>
             <div className="social-icon">
               <i className="fab fa-facebook-f facebook-bg" title="Facebook" />
               <i className="fab fa-twitter twitter-bg" title="Twitter" />

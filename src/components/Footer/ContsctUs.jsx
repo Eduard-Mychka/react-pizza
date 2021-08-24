@@ -7,21 +7,21 @@ export default function ContsctUs() {
         <i className="fas fa-map-marker-alt"></i>
         <div className="contact-us__text">
           <h3>Мы находимся тут</h3>
-          <span>Киев. Улица Реакт-пицца 28а</span>
+          <p>Киев. Улица Реакт-пицца 28а</p>
         </div>
       </div>
       <div className="contact-us__block">
         <i className="fas fa-phone" />
         <div className="contact-us__text">
           <h3>Наш телефон</h3>
-          <span>+38 (063) 888 99000</span>
+          <p>+38 (063) 888 99000</p>
         </div>
       </div>
       <div className="contact-us__block">
         <i className="far fa-envelope-open" />
         <div className="contact-us__text">
           <h3>Электронное письмо</h3>
-          <span>reactpizza@gmail.com</span>
+          <p>reactpizza@gmail.com</p>
         </div>
       </div>
     </div>

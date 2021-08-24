@@ -5,6 +5,21 @@
   background-color: rgb(255, 177, 132);
 
   .main-content {
+    h3 {
+      color: rgb(54, 54, 54);
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 2px;
+    }
+
+    p {
+      color: #757575;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 0;
+      margin: 0;
+    }
+
     .contact-us {
       display: flex;
       justify-content: center;
@@ -34,21 +49,8 @@
       &__text {
         display: flex;
         flex-direction: column;
-    
-        & h3 {
-          color: rgb(54, 54, 54);
-          font-size: 16px;
-          font-weight: 700;
-          margin-bottom: 2px;
-        }
-    
-        & span {
-          color: #757575;
-          font-size: 14px;
-          font-weight: 600;
-        }
       }
-    }
+    }  
 
     .footer-store {
       display: flex;
@@ -56,11 +58,6 @@
       align-items: center;
       flex-direction: column;
       margin-right: 50px;
-      span {
-        color: rgb(54, 54, 54);
-        font-size: 16px;
-        font-weight: 700;
-      }
 
       .pay {
         cursor: pointer;
@@ -87,19 +84,10 @@
     }
 
     .footer-social-icon {
-      span {
-        display: flex;
-        justify-content: flex-start;
-        color: rgb(54, 54, 54);
-        font-size: 16px;
-        font-weight: 700;
-        margin-bottom: 10px;
-      }
-
       .social-icon {
         display: flex;
         justify-content: flex-start;
-        margin-bottom: 18px;
+        margin: 8px 0 22px;
 
         i {
           color: #fff;
@@ -130,43 +118,15 @@
           font-size: 19px;
         }
       }
+    }
 
-      h3 {
-        color: rgb(54, 54, 54);
-        font-size: 16px;
-        font-weight: 700;
+    .footer-logo {
+      .logo {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0 0px 25px;
       }
-  
-      p {
-        color: #757575;
-        font-size: 14px;
-        font-weight: 600;
-        margin: 0;
-        padding: 0;
-      }
-    }
-  }
-
-  .footer-logo {
-    .logo {
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      margin: 0 0px 25px;
-    }
-
-    h3 {
-      color: rgb(54, 54, 54);
-      font-size: 16px;
-      font-weight: 700;
-    }
-
-    p {
-      color: #757575;
-      font-size: 14px;
-      font-weight: 600;
-      padding: 0;
-      margin: 0;
     }
   }
 
@@ -182,7 +142,7 @@
       & p {
         margin: 0;
         font-size: 14px;
-        color: #919191;
+        color: #757575;
         font-weight: 600;
   
         & span {
@@ -206,7 +166,7 @@
           display: inline-block;
           margin-left: 20px;
           font-size: 14px;
-          color: #919191;
+          color: #757575;
           font-weight: 600;
           transition: all .1s;
     

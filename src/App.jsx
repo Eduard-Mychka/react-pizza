@@ -17,7 +17,7 @@ const App = () => {
       }, 1000);
     })
       .then((pizzas) => setPizzas(pizzas))
-      .catch((error) => console.log(error))
+      .catch((error) => console.log('Error', error))
   }, []);
 
   return (
