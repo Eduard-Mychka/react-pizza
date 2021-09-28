@@ -1,9 +1,14 @@
 import { PizzaBlock, Categories, SortPopup, Carousels, Loader } from '../components'
 
 const categoryNames = ['Все', 'Мясные', 'Вегетарианская', 'Гриль', 'Острые', 'Закрытые']
-const sortNames = ['популярные', 'цена', 'алфавит']
+const sortNames = [
+  { id: 1, label: 'популярные', type: 'popular' },
+  { id: 2, label: 'цена', type: 'price' },
+  { id: 3, label: 'алфавит', type: 'alphabet' }
+]
 
 const Home = ({ pizzas, loader }) => {
+  console.log(pizzas)
   return (
     <div className="custom-container">
       <Carousels />

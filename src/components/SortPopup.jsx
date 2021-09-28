@@ -1,4 +1,3 @@
-import { v4 as uuidv4 } from 'uuid';
 import { useState, useEffect, useRef } from "react";
 
 const SortPopup = ({ sortNames }) => {
@@ -6,7 +5,7 @@ const SortPopup = ({ sortNames }) => {
   const [activeItemIndex, setActiveItemIndex] = useState(0)
 
   const sortRef = useRef()
-  const activeLabel = sortNames[activeItemIndex]
+  const activeLabel = sortNames[activeItemIndex].label
 
   const toggleVisiblePopup = () => setVisiblePopup(!visiblePopup)
   const handleOutsideClick = (e) => {
@@ -35,14 +34,15 @@ const SortPopup = ({ sortNames }) => {
         <div className="sort__popup">
           <ul>
             {sortNames &&
-              sortNames.map((name, index) =>
+              sortNames.map((obj, index) =>
                 <li
-                  key={uuidv4()}
+                  key={obj.id}
                   className={activeItemIndex === index ? 'active' : ''}
                   onClick={() => onSelectItem(index)}
                 >
-                  {name}
+                  {obj.label}
                 </li>
+
               )
             }
           </ul>

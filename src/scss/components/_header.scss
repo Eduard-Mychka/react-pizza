@@ -1,8 +1,9 @@
 @import '../variables';
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800');
 
 .header {
   background-color: rgb(255, 255, 255);
-  padding: 40px 40px;
+  padding: 25px 40px;
 
   .custom-container {
     display: flex;
@@ -17,23 +18,25 @@
 
     img {
       margin-right: 15px;
-      width: 40px;
+      width: 65px;
+      height: 65px;
+      background-size: cover;
+      background-repeat: no-repeat;
     }
 
     h1 {
       display: flex;
       justify-content: flex-start;
-      margin: 0;
       color: #181818;
-      font-size: 28px;
+      font-size: 33px;
       letter-spacing: 1px;
-      text-transform: uppercase;
-      font-weight: 800;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-family: 'Baloo Thambi 2', cursive;
     }
 
     p {
-      color: #7b7b7b;
-      margin: 0;
+      color: #636363;
     }
   }
 }

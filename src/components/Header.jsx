@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import logoSvg from '../assets/images/others/pizza-logo.svg';
+import logoSvg from '../assets/images/others/logo10.svg';
 
 const Header = () => {
   return (
-    <Link to="/" title="Home">
+    <Link to="/">
       <div className="header__logo">
         <img src={logoSvg} alt="Pizza logo" />
         <div>
